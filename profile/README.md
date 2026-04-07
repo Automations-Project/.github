@@ -9,7 +9,6 @@
 <br>
 
 <!-- ─── Animated Typing Title ────────────────────────────────────── -->
-<!-- Primary: herokuapp (original host) · Fallback: static H1 -->
 
 <a href="https://github.com/automations-Project">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&height=70&lines=%C2%AF%5C_(%E3%83%84)_%2F%C2%AF+We+automate+the+boring+stuff.;Open+source+%C2%B7+Battle-tested+%C2%B7+Community-driven;n8n+workflow+packs+%26+blueprints" alt="¯\_(ツ)_/¯ We automate the boring stuff." />
@@ -27,6 +26,7 @@
 
 <a href="https://nskha.com"><img src="https://img.shields.io/badge/nskha.com-0d1117?style=for-the-badge&logo=googlechrome&logoColor=58a6ff" alt="Website" /></a>&nbsp;
 <a href="https://n8n.io/creators/nskha"><img src="https://img.shields.io/badge/n8n_Creator-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n Creator" /></a>&nbsp;
+<a href="https://chatgpt.com/g/g-SVatmGSdQ-n8n-assistant-by-nskha"><img src="https://img.shields.io/badge/n8n_GPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="N8N Assistant GPT" /></a>&nbsp;
 <a href="https://t.me/nodemation"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>&nbsp;
 <a href="https://n8n.community/u/nskha"><img src="https://img.shields.io/badge/n8n_Community-FF6D5A?style=for-the-badge&logo=discourse&logoColor=white" alt="n8n Community" /></a>&nbsp;
 <a href="mailto:github-public@team.nskha.com"><img src="https://img.shields.io/badge/Contact_Us-30363d?style=for-the-badge&logo=maildotru&logoColor=8b949e" alt="Email" /></a>
@@ -36,9 +36,10 @@
 <!-- ─── Live Stats ────────────────────────────────────────────────── -->
 
 <img src="https://img.shields.io/github/followers/automations-Project?label=Followers&style=flat-square&color=1f6feb&labelColor=0d1117" alt="Followers" />&nbsp;
-<img src="https://img.shields.io/badge/Repos-28-1f6feb?style=flat-square&labelColor=0d1117" alt="Public Free Repos" />&nbsp;
+<img src="https://img.shields.io/badge/Repos-28-1f6feb?style=flat-square&labelColor=0d1117" alt="Repos" />&nbsp;
 <img src="https://img.shields.io/badge/n8n_Templates-9-EA4B71?style=flat-square&labelColor=0d1117" alt="Templates" />&nbsp;
 <img src="https://img.shields.io/badge/Template_Downloads-60K+-58a6ff?style=flat-square&labelColor=0d1117" alt="Downloads" />&nbsp;
+<img src="https://img.shields.io/badge/GPT_Conversations-700K+-74aa9c?style=flat-square&labelColor=0d1117" alt="GPT Conversations" />&nbsp;
 <img src="https://img.shields.io/badge/License-MIT-3fb950?style=flat-square&labelColor=0d1117" alt="License" />
 
 </div>
@@ -55,6 +56,22 @@
 > We build community nodes, workflow templates, DevOps scripts, and developer tools — all open-source, battle-tested, and free to use.
 
 We've been active in the [n8n community](https://n8n.community/u/nskha) since **2021**, contributing templates that have been downloaded over **60,000 times** across the platform. From Cloudflare infrastructure nodes to crypto market alert systems, our work spans the full automation spectrum.
+
+We also built the **[N8N Assistant (By Nskha)](https://chatgpt.com/g/g-SVatmGSdQ-n8n-assistant-by-nskha)** — the first and only ChatGPT GPT dedicated to n8n. Unlike a standard GPT, it uses **live API actions** to search n8n docs, community forums, GitHub issues, templates, and node/credential metadata in real time. **700K+ conversations**, **10K+ ratings** (4.3 ★), and growing — the largest AI assistant in the n8n ecosystem.
+
+We also share our n8n AI rules publicly so anyone can use them in any AI tool or IDE:
+
+```
+https://cdn.n8n.community/llms.txt     ← main rules (agents, expressions + code)
+https://cdn.n8n.community/code.md      ← dedicated for IDE coding
+https://cdn.n8n.community/expression.md ← n8n expressions reference
+```
+
+<div align="center">
+
+<a href="https://chatgpt.com/g/g-SVatmGSdQ-n8n-assistant-by-nskha"><img src="https://img.shields.io/badge/Try_N8N_Assistant_on_ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="N8N Assistant GPT" /></a>
+
+</div>
 
 <br>
 
@@ -99,7 +116,7 @@ We've been active in the [n8n community](https://n8n.community/u/nskha) since **
 <a href="https://github.com/automations-Project/n8n-data-manager"><img src="https://img.shields.io/github/stars/automations-Project/n8n-data-manager?style=flat-square&color=e3b341&labelColor=0d1117" /></a>
 <a href="https://github.com/automations-Project/n8n-data-manager"><img src="https://img.shields.io/github/forks/automations-Project/n8n-data-manager?style=flat-square&color=1f6feb&labelColor=0d1117" /></a>
 </p>
-<p align="center"><samp>Automated backup & restore for n8n workflows,<br>credentials, and env variables to GitHub.<br>Interactive + non-interactive. Alpine & Ubuntu.</samp></p>
+<p align="center"><samp>Automated backup & restore for n8n workflows,<br>credentials, and env variables to GitHub.<br>30K+ lines CLI. Alpine & Ubuntu.</samp></p>
 </td>
 
 </tr>
@@ -161,10 +178,10 @@ We maintain a growing collection of custom nodes that extend n8n's capabilities:
 
 | Project | What it does |
 |:--------|:-------------|
+| [`n8n-data-manager`](https://github.com/automations-Project/n8n-data-manager) | 30K+ line CLI for backup & restore of n8n data — workflows, creds, folders, tags, projects, tables, and full DB dumps. Enterprise-compatible. |
+| [`n8n-workflows-comparator`](https://github.com/automations-Project/n8n-workflows-comparator) | CLI tool for comparing n8n workflow JSON files & tracking diffs |
 | [`Hetzner-Shells`](https://github.com/automations-Project/Hetzner-Shells) | One-command Storage Box mounting for Ubuntu (ARM64/x86_64) |
 | [`dragonfly-coolify-s3`](https://github.com/automations-Project/dragonfly-coolify-s3) | Docker image fixing Dragonfly S3 issues with Coolify |
-| [`n8n-data-manager`](https://github.com/automations-Project/n8n-data-manager) | Automated backup & restore of n8n data to GitHub |
-| [`n8n-workflows-comparator`](https://github.com/automations-Project/n8n-workflows-comparator) | CLI tool for comparing n8n workflow JSON files & tracking diffs |
 | [`VSCode-Airtable-Formula`](https://github.com/automations-Project/VSCode-Airtable-Formula) | VS Code extension — beautify & compress Airtable formulas |
 | [`ditto-chaiscripts`](https://github.com/automations-Project/ditto-chaiscripts) | Production-grade ChaiScript minifiers for Ditto Clipboard Manager |
 
@@ -198,6 +215,28 @@ We maintain a growing collection of custom nodes that extend n8n's capabilities:
 <b>60,000+ total template downloads</b> across the n8n platform
 <br><br>
 </div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                      IN PROGRESS                                  -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="25" />&nbsp; In Progress
+
+We're building the next generation of n8n developer tooling. Follow updates on our [Telegram blog](https://t.me/NodeMation).
+
+| Project | Description | Status |
+|:--------|:------------|:------:|
+| **Node Builder** | npm + CLI + web UI that generates fully functional n8n community nodes from Postman/OpenAPI/Swagger specs — AI-trained on the n8n project, outputs ~1865 automation nodes, targeting ~15 min per production node | `Building` |
+| **n8n-manager** | Fetches all workflow I/O from n8n, generates schema files per node operation — compact schemas with real execution data for AI debugging, accuracy, and edge-case coverage. Clones Airbyte's idea of dynamic mapping from historical data. | `Prototype` |
+| **Data Manager VS Code** | IDE extension that converts n8n workflows into a framework — every part of the workflow becomes a file, giving AI low context to work with. Initialize from n8n Cloud, vibe-code, build back, and upload. | `Building` |
+| **n8n Manager Nodes** | 4 custom nodes: backups, internal API, instance sync, and refactor — brings n8n management features inside n8n itself | `Building` |
+| **n8n Compare** | Frontend + VS Code extension for workflow diff reports — shows exactly what changed between versions, like n8n Enterprise diff but with more control | `Building` |
+| **MCP Extension** | VS Code extension with 32-tool dashboard — auto-configures AI for MCP (skills, rules, tools, workflows), syncs n8n settings to MCP config, works across all VS Code-based IDEs and CLI tools | `Testing` |
+| **n8n File Formats** | Standard extensions (`.n8n`, `.n8n.js`, `.n8n.py`, `.n8n.node`, `.n8n.backup`, `.n8n.md`, etc.) to give AI structured, consistent data for n8n workflows — [spec on Reddit](https://www.reddit.com/r/n8n/comments/1q4qx4f/) | `Spec Released` |
+| **Perplexity MCP** | Internal extension that gives any AI model MCP access to a personal Perplexity account — links Claude Code, Windsurf, and Codex to Perplexity as a tool for research and advanced results | `Internal` |
+| **Airtable Computed Fields MCP** | Bypasses Airtable API limitations on updating computed fields (formulas, buttons, currency) — automates updates via internal APIs with captcha bypass using patchright (undetected Playwright) | `Built` |
+
+<br>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!--                       CONTRIBUTING                                -->
@@ -234,6 +273,7 @@ All our projects are open source under the **MIT License** (unless noted otherwi
 
 <br><br>
 
+<a href="https://chatgpt.com/g/g-SVatmGSdQ-n8n-assistant-by-nskha"><img src="https://img.shields.io/badge/N8N_Assistant_GPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" /></a>&nbsp;
 <a href="https://n8n.community/u/nskha"><img src="https://img.shields.io/badge/n8n_Community-FF6D5A?style=for-the-badge&logo=discourse&logoColor=white" /></a>&nbsp;
 <a href="mailto:github-public@team.nskha.com"><img src="https://img.shields.io/badge/Email-github--public@team.nskha.com-30363d?style=for-the-badge&logo=maildotru&logoColor=8b949e" /></a>
 
