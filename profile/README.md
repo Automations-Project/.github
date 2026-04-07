@@ -8,8 +8,11 @@
 
 <br>
 
+<!-- ─── Animated Typing Title ────────────────────────────────────── -->
+<!-- Primary: herokuapp (original host) · Fallback: static H1 -->
+
 <a href="https://github.com/automations-Project">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=%C2%AF%5C_(ツ)_%2F%C2%AF+We+automate+the+boring+stuff." alt="Nskha Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&height=70&lines=%C2%AF%5C_(%E3%83%84)_%2F%C2%AF+We+automate+the+boring+stuff.;Open+source+%C2%B7+Battle-tested+%C2%B7+Community-driven;n8n+workflow+packs+%26+blueprints" alt="¯\_(ツ)_/¯ We automate the boring stuff." />
 </a>
 
 <br>
@@ -33,7 +36,7 @@
 <!-- ─── Live Stats ────────────────────────────────────────────────── -->
 
 <img src="https://img.shields.io/github/followers/automations-Project?label=Followers&style=flat-square&color=1f6feb&labelColor=0d1117" alt="Followers" />&nbsp;
-<img src="https://img.shields.io/badge/Repos-27-1f6feb?style=flat-square&labelColor=0d1117" alt="Repos" />&nbsp;
+<img src="https://img.shields.io/badge/Repos-28-1f6feb?style=flat-square&labelColor=0d1117" alt="Public Free Repos" />&nbsp;
 <img src="https://img.shields.io/badge/n8n_Templates-9-EA4B71?style=flat-square&labelColor=0d1117" alt="Templates" />&nbsp;
 <img src="https://img.shields.io/badge/Template_Downloads-60K+-58a6ff?style=flat-square&labelColor=0d1117" alt="Downloads" />&nbsp;
 <img src="https://img.shields.io/badge/License-MIT-3fb950?style=flat-square&labelColor=0d1117" alt="License" />
